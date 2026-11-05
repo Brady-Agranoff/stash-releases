@@ -17,3 +17,4 @@ mv "$TMP/Stash.app" "$DEST/Stash.app"
 xattr -dr com.apple.quarantine "$DEST/Stash.app" 2>/dev/null || true
 open "$DEST/Stash.app"
 echo "Stash is installed in $DEST and running in your menu bar. It updates itself from now on."
+echo "Can't see the menu bar icon? Open Stash again (Spotlight: Stash) to get to Settings, or press ⌥⌘V then ⌘,."
